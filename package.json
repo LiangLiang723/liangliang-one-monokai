@@ -16,7 +16,7 @@
             {
                 "label": "LiangLiang One Monokai",
                 "uiTheme": "vs-dark",
-                "path": "./themes/OneMonokai-color-theme.json"
+                "path": "./themes/liangliang-color-theme.json"
             }
         ]
     },
