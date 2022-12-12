@@ -4,7 +4,7 @@
     "description": "A cross between Monokai and One Dark theme",
     "version": "0.5.0",
     "icon": "icon.ico",
-    "publisher": "azemoh",
+    "publisher": "liangliang",
     "engines": {
         "vscode": "^1.13.0"
     },
