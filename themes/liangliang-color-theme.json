@@ -212,7 +212,6 @@
         {
             "name": "Variable Object",
             "scope": [
-                "variable.other.object",
                 "variable.other.constant",
                 "variable.other.global",
                 "variable.other.readwrite.class",
@@ -220,21 +219,50 @@
                 "variable.other.readwrite.batchfile",
                 "variable.readwrite",
                 "variable.readwrite.other.block",
-                "variable.other.object.access"
             ],
             "settings": {
                 "foreground": "#61afef"
             }
         },
+        // {
+        //     "name": "class Object",
+        //     "scope": [
+        //         "entity.name.type.class",
+        //     ],
+        //     "settings": {
+        //         "foreground": "#56b6c2"
+        //     }
+        // },
+        {
+            "name": "enum and preprocessor",
+            "scope": [
+                "entity.name.function.preprocessor",
+                "variable.other.enummember",
+            ],
+            "settings": {
+                "foreground": "#BEB7FF"
+            }
+        },
         {
             "name": "Other variable",
             "scope": [
-                // "variable.other",
+                "variable.other",
                 "variable.other.property",
                 "variable.other.block"
             ],
             "settings": {
                 "foreground": "#abb2bf"
+            }
+        },
+        {
+            "name": "class property",
+            "scope": [
+                "variable.other.property",
+                "variable.other.object.access"
+            ],
+            "settings": {
+                // "foreground": "#ff9da4"
+                "foreground": "#cccbbb"
             }
         },
         {
@@ -262,15 +290,6 @@
             ],
             "settings": {
                 "foreground": "#98c379"
-            }
-        },
-        {
-            "name": "Function name preprocessor",
-            "scope": [
-                "entity.name.function.preprocessor",
-            ],
-            "settings": {
-                "foreground": "#BEB7FF"
             }
         },
         {
