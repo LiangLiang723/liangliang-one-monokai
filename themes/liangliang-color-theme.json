@@ -219,7 +219,8 @@
                 "variable.other.readwrite.instance",
                 "variable.other.readwrite.batchfile",
                 "variable.readwrite",
-                "variable.readwrite.other.block"
+                "variable.readwrite.other.block",
+                "variable.other.object.access"
             ],
             "settings": {
                 "foreground": "#61afef"
@@ -228,7 +229,7 @@
         {
             "name": "Other variable",
             "scope": [
-                "variable.other",
+                // "variable.other",
                 "variable.other.property",
                 "variable.other.block"
             ],
@@ -261,6 +262,15 @@
             ],
             "settings": {
                 "foreground": "#98c379"
+            }
+        },
+        {
+            "name": "Function name preprocessor",
+            "scope": [
+                "entity.name.function.preprocessor",
+            ],
+            "settings": {
+                "foreground": "#BEB7FF"
             }
         },
         {
