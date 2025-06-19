@@ -1,5 +1,5 @@
 {
-    "name": "One Monokai",
+    "name": "LiangLiang One Monokai",
     "type": "dark",
     "colors": {
         "activityBar.background": "#2F333D",
@@ -12,7 +12,7 @@
         "dropdown.border": "#181A1F",
         "editor.background": "#282c34",
         "editor.findMatchBackground": "#42557B",
-        "editor.findMatchHighlightBackground": "#314365",
+        "editor.findMatchHighlightBackground": "#314365cf",
         "editor.lineHighlightBackground": "#383E4A",
         "editor.selectionBackground": "#7686a8",
         "editorCursor.foreground": "#f8f8f0",
@@ -20,7 +20,7 @@
         "editorGroup.emptyBackground": "#181A1F",
         "editorGroup.border": "#181A1F",
         "editorGroupHeader.tabsBackground": "#21252B",
-        "editorIndentGuide.background": "#3B4048",
+        "editorIndentGuide.background1": "#3B4048",
         "editorHoverWidget.background": "#21252B",
         "editorHoverWidget.border": "#181A1F",
         "editorLineNumber.foreground": "#495162",
@@ -67,7 +67,7 @@
         "terminal.ansiBrightGreen": "#98c379",
         "terminal.ansiBrightYellow": "#e5c07b",
         "terminal.ansiBrightCyan": "#56b6c2",
-        "terminal.ansiBrightMagenta": "#7e0097",
+        "terminal.ansiBrightMagenta": "#e788ff",
         "terminal.ansiBrightRed": "#f44747",
         "terminal.ansiBrightWhite": "#d7dae0",
         "titleBar.activeBackground": "#282c34",
@@ -218,7 +218,7 @@
                 "variable.other.readwrite.instance",
                 "variable.other.readwrite.batchfile",
                 "variable.readwrite",
-                "variable.readwrite.other.block",
+                "variable.readwrite.other.block"
             ],
             "settings": {
                 "foreground": "#61afef"
@@ -231,6 +231,13 @@
         //     ],
         //     "settings": {
         //         "foreground": "#56b6c2"
+        //     }
+        // },
+        // {
+        //     "name": "User-defined constant",
+        //     "scope": "variable.other.constant",
+        //     "settings": {
+        //         "foreground": "#c37985"
         //     }
         // },
         {
@@ -471,7 +478,6 @@
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
-                "background": "#c678dd",
                 "foreground": "#F8F8F0"
             }
         },
@@ -479,7 +485,6 @@
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "settings": {
-                "background": "#56b6c2",
                 "foreground": "#F8F8F0"
             }
         },
